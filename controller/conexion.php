@@ -10,14 +10,11 @@ class Conexion{
         if ($this->connection->connect_error){
             die('Connection Error');
         }
-        echo "Connection is on!";
+
+        $this->connection->set_charset("utf8");
     }
 
     public function selectData($sql){
-        return $this->connection->query($sql);
-    }
-
-    public function insertData($sql){
         return $this->connection->query($sql);
     }
 

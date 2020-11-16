@@ -1,12 +1,9 @@
 <html>
 <body>
 
-
-
 <?php
 
 require('controller/conexion.php');
-
 
 echo 'Server is on!';
 echo '<br />';

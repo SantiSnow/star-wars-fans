@@ -10,16 +10,33 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1kNRoVDFYzAky5PUMKRCKhbyiQS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\star-wars-fans" />
+      <recent name="F:\xampp\htdocs\star-wars-fans\controller" />
+      <recent name="F:\xampp\htdocs\star-wars-fans\view" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605539252745</updated>
-      <workItem from="1605539260232" duration="1691000" />
+      <workItem from="1605539260232" duration="8689000" />
     </task>
     <servers />
   </component>
@@ -37,14 +54,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="736" y="410" key="NewPhpFileDialog" timestamp="1605539354282">
+    <state x="705" y="210" key="NewPhpClassDialog" timestamp="1605541395523">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
-    <state x="736" y="410" key="NewPhpFileDialog/0.0.1804.974@0.0.1804.974" timestamp="1605539354282" />
+    <state x="705" y="210" key="NewPhpClassDialog/0.0.1804.974@0.0.1804.974" timestamp="1605541395523" />
+    <state x="736" y="410" key="NewPhpFileDialog" timestamp="1605544084015">
+      <screen x="0" y="0" width="1804" height="974" />
+    </state>
+    <state x="736" y="410" key="NewPhpFileDialog/0.0.1804.974@0.0.1804.974" timestamp="1605544084015" />
     <state x="403" y="132" key="SettingsEditor" timestamp="1605539661519">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
     <state x="403" y="132" key="SettingsEditor/0.0.1804.974@0.0.1804.974" timestamp="1605539661519" />
+    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1605549267725">
+      <screen x="0" y="0" width="1804" height="974" />
+    </state>
+    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1804.974@0.0.1804.974" timestamp="1605549267725" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
