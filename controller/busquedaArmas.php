@@ -17,9 +17,9 @@ while($i = $resultado->fetch_assoc()){
     $miJson[]= array(
         'Id'=>$i['ID'],
         'Nombre'=>$i['Nombre'],
-        'Propietario'=>$i['Propietario'],
+        'Principal_usuario'=>$i['Principal_usuario'],
         'Tipo'=>$i['Tipo'],
-        'Estado'=>$i['Estado'],
+        'Creador'=>$i['Creador']
     );
 }
 
