@@ -8,12 +8,29 @@
     <link rel="stylesheet" href="css/bootstrap.darkly.min.css">
     <!-- JQuery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+            background-image: url(imgs/tatooine.jpg);
+
+            background-repeat: no-repeat;
+        }
+        #principal-container{
+            background-color: #375a7f;
+            border-radius: 10px;
+            opacity: 0.7;
+        }
+        .titulo-seccion{
+            margin: 25px;
+        }
+    </style>
+
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Star Wars Fans</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,8 +55,57 @@
         </div>
     </nav>
 
+    <br />
+    <br />
 
+    <div class="container" id="principal-container">
+        <div class="row">
+            <div class="col-md-9">
+                <h3 class="titulo-seccion">Buscar personajes del universo Star Wars:</h3>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <form method="post" action="">
+                                <label for="Nombre">Buscar por nombre:</label>
+                                <input type="text" name="Nombre" placeholder="Ingrese nombre" class="form-control" required />
+                                <br />
+                                <button type="submit" class="btn btn-danger">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <form method="post" action="">
+                                <label for="Id">Buscar por número id:</label>
+                                <input type="number" name="Id" placeholder="Ingrese ID" class="form-control" required />
+                                <br />
+                                <button type="submit" class="btn btn-danger">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <form method="post" action="">
+                                <label for="Interprete">Buscar por interprete:</label>
+                                <input type="text" name="Interprete" placeholder="Ingrese el actor que lo interpreta" class="form-control" required />
+                                <br />
+                                <button type="submit" class="btn btn-danger">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
 
+    <br />
+    <br />
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
