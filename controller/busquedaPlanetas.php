@@ -18,7 +18,8 @@ while($i = $resultado->fetch_assoc()){
         'Id'=>$i['ID'],
         'Nombre'=>$i['Nombre'],
         'Descripcion'=>$i['Descripcion'],
-        'Primer_Aparicion'=>$i['Primer_Aparicion']
+        'Primer_Aparicion'=>$i['Primer_Aparicion'],
+        'Foto'=>$i['Foto']
     );
 }
 

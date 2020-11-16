@@ -25,7 +25,8 @@ while($i = $resultado->fetch_assoc()){
         'Peliculas'=>$i['Peliculas'],
         'Raza'=>$i['Raza'],
         'Genero'=>$i['Genero'],
-        'Interprete'=>$i['Interprete']
+        'Interprete'=>$i['Interprete'],
+        'Foto'=>$i['Foto']
     );
 }
 

@@ -19,7 +19,8 @@ while($i = $resultado->fetch_assoc()){
         'Nombre'=>$i['Nombre'],
         'Propietario'=>$i['Propietario'],
         'Tipo'=>$i['Tipo'],
-        'Estado'=>$i['Estado']
+        'Estado'=>$i['Estado'],
+        'Foto'=>$i['Foto']
     );
 }
 

@@ -19,7 +19,8 @@ while($i = $resultado->fetch_assoc()){
         'Nombre'=>$i['Nombre'],
         'Principal_usuario'=>$i['Principal_usuario'],
         'Tipo'=>$i['Tipo'],
-        'Creador'=>$i['Creador']
+        'Creador'=>$i['Creador'],
+        'Foto'=>$i['Foto']
     );
 }
 
