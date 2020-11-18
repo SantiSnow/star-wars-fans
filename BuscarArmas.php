@@ -94,11 +94,6 @@ include "view/nav-bar.php";
                 if (this.readyState == 4 && this.status == 200) {
 
                     const arreglo = JSON.parse(this.responseText);
-                    console.log(arreglo);
-
-                    console.log(`Resultado
-                        ${arreglo[0].Nombre}
-                    `)
 
                     $("#resultado").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
@@ -129,11 +124,7 @@ include "view/nav-bar.php";
                 if (this.readyState == 4 && this.status == 200) {
 
                     const arreglo = JSON.parse(this.responseText);
-                    console.log(arreglo);
 
-                    console.log(`Resultado
-                    ${arreglo[0].Nombre}
-                    `)
 
                     $("#resultadoId").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>

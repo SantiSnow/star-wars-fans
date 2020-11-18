@@ -64,7 +64,6 @@ include "view/nav-bar.php";
                 if (this.readyState == 4 && this.status == 200) {
 
                     const arreglo = JSON.parse(this.responseText);
-                    console.log(arreglo);
 
                     for (i in arreglo){
                         $("#resultado").append(`<div class="col-3">
