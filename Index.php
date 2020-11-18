@@ -13,7 +13,6 @@
     <style>
         body{
             background-image: url(view/imgs/tatooine.jpg);
-
             background-repeat: no-repeat;
         }
         #principal-container{
@@ -21,11 +20,12 @@
             border-radius: 10px;
             opacity: 0.7;
         }
-        .titulo-seccion{
-            margin: 25px;
-        }
         .card-title{
             margin: 5px;
+        }
+        .results{
+            margin-left: 15px;
+            margin-right: 15px;
         }
     </style>
 
@@ -62,9 +62,8 @@
     <br />
 
     <div class="container" id="principal-container">
-        <div class="row">
-            <div class="col-md-9">
-                <h3 class="titulo-seccion">Buscar personajes del universo Star Wars:</h3>
+            <div class="col-md-12">
+                <h3 class="titulo-seccion">Buscar personajes del universo Star Wars por nombre:</h3>
                 <br />
                 <br />
                 <div class="row">
@@ -78,37 +77,38 @@
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <form method="post" action="">
-                                <label for="Id">Buscar por número id:</label>
-                                <input type="number" name="Id" placeholder="Ingrese ID" class="form-control" />
-                                <br />
-                                <button type="submit" class="btn btn-danger">Buscar</button>
-                            </form>
+                            <label for="Id">Buscar por número id:</label>
+                            <input type="number" id="Id" name="Id" placeholder="Ingrese ID" class="form-control" />
+                            <br />
+                            <button type="submit" class="btn btn-danger" onclick="busquedaId()">Buscar</button>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <form method="post" action="">
-                                <label for="Interprete">Buscar por interprete:</label>
-                                <input type="text" name="Interprete" placeholder="Ingrese el actor que lo interpreta" class="form-control" />
-                                <br />
-                                <button type="submit" class="btn btn-danger">Buscar</button>
-                            </form>
+                            <label for="Interprete">Buscar por interprete:</label>
+                            <input type="text" Id="Interprete" name="Interprete" placeholder="Ingrese el actor que lo interpreta" class="form-control" />
+                            <br />
+                            <button type="submit" class="btn btn-danger" onclick="busquedaInterprete()">Buscar</button>
                         </div>
                     </div>
                 </div>
                 <br />
                 <br />
-                <div id="resultado">
-                    
+                <div class="row">
+                    <div id="resultado" class="col-3 results">
+
+                    </div>
+                    <div id="resultadoId" class="col-3 results">
+
+                    </div>
+                    <div id="resultadoInterp" class="col-3 results">
+
+                    </div>
                 </div>
+
                 <br />
                 <br />
             </div>
-        </div>
-        <div class="text-center">
-            <a class="btn btn-danger btn-lg"><strong>Buscar más elementos del universo</strong> </a>
-        </div>
         <br />
         <br />
     </div>
@@ -117,6 +117,7 @@
     <br />
 
     <script>
+        //buscar por nombre
         function peticion(){
             const usrInput = $("#Nombre").val();
 
@@ -135,11 +136,12 @@
                     $("#resultado").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
-                            <li class='list-group-item'>Interprete: ${arreglo[0].Interprete}</li>
+                            <li class='list-group-item'>Intérprete: ${arreglo[0].Interprete}</li>
                             <li class='list-group-item'>Planeta de origen: ${arreglo[0].Planeta_Origen}</li>
                             <li class='list-group-item'>Raza: ${arreglo[0].Raza}</li>
                             <li class='list-group-item'>Rango: ${arreglo[0].Rango}</li>
-                            <li class='list-group-item'>Genero: ${arreglo[0].Genero}</li>
+                            <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
+                            <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
                         </ul>
                     </div>`);
@@ -152,11 +154,83 @@
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xmlhttp.send("Nombre=" + usrInput);
         }
-    </script>
+        //fin del metodo
 
+        //buscar por id
+        function busquedaId(){
+            const usrInput = $("#Id").val();
+
+            const xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    //console.log(this.responseText);
+                    const arreglo = JSON.parse(this.responseText);
+                    console.log(arreglo);
+
+                    console.log(`Resultado
+                    ${arreglo[0].Nombre}
+                    `)
+
+                    $("#resultadoId").html(`<div class="card" style='width: 18rem;'>
+                        <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
+                        <ul class='list-group list-group-flush'>
+                            <li class='list-group-item'>Intérprete: ${arreglo[0].Interprete}</li>
+                            <li class='list-group-item'>Planeta de origen: ${arreglo[0].Planeta_Origen}</li>
+                            <li class='list-group-item'>Raza: ${arreglo[0].Raza}</li>
+                            <li class='list-group-item'>Rango: ${arreglo[0].Rango}</li>
+                            <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
+                            <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
+                            <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                        </ul>
+                    </div>`);
+                }
+            }
+
+            xmlhttp.open('POST', 'controller/busquedaPersonajesId.php', true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send("Id=" + usrInput);
+        }
+        //fin del metodo
+
+        //buscar por interprete
+        function busquedaInterprete(){
+            const usrInput = $("#Interprete").val();
+
+            const xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    const arreglo = JSON.parse(this.responseText);
+                    console.log(arreglo);
+
+                    console.log(`Resultado
+                        ${arreglo[0].Nombre}
+                    `)
+
+                    $("#resultadoInterp").html(`<div class="card" style='width: 18rem;'>
+                        <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
+                        <ul class='list-group list-group-flush'>
+                            <li class='list-group-item'>Intérprete: ${arreglo[0].Interprete}</li>
+                            <li class='list-group-item'>Planeta de origen: ${arreglo[0].Planeta_Origen}</li>
+                            <li class='list-group-item'>Raza: ${arreglo[0].Raza}</li>
+                            <li class='list-group-item'>Rango: ${arreglo[0].Rango}</li>
+                            <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
+                            <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
+                            <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                        </ul>
+                    </div>`);
+                }
+            }
+            xmlhttp.open('POST', 'controller/busquedaPersonajesInterprete.php', true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send("Interprete=" + usrInput);
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+

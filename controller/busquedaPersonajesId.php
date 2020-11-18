@@ -9,9 +9,9 @@ $pass = '';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$recibido = $_POST['Nombre'];
+$Id = $_POST['Id'];
 
-$resultado = $miConexion->selectData("Select * from personajes WHERE Nombre LIKE '%" . $recibido . "%'");
+$resultado = $miConexion->selectData("Select * from personajes WHERE Id=" . $Id);
 
 $miJson = array();
 
