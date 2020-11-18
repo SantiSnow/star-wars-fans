@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/controller/busquedaArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNaves.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/nav-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/nav-bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kNRoVDFYzAky5PUMKRCKhbyiQS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +57,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605539252745</updated>
       <workItem from="1605539260232" duration="9366000" />
-      <workItem from="1605561258337" duration="45000" />
+      <workItem from="1605561258337" duration="855000" />
+      <workItem from="1605619486710" duration="599000" />
+      <workItem from="1605626616335" duration="1531000" />
+      <workItem from="1605703597865" duration="2890000" />
     </task>
     <servers />
   </component>

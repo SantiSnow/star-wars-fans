@@ -117,33 +117,41 @@
     <br />
 
     <script>
-    function peticion(){
-        xmlhttp = new XMLHttpRequest();
-        $('resultado').html("");
+        function peticion(){
+            const usrInput = $("#Nombre").val();
 
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                arreglo = JSON.parse(this.responseText);
-                console.log(arreglo);
+            const xmlhttp = new XMLHttpRequest();
 
-                $('#resultado').html("<div class='card' style='width: 18rem;><div class='card-body'><h4 class='card-title'>Nombre</h4><ul class='list-group list-group-flush'><li class='list-group-item'>asdasdas</li></ul></div></div>");
-                /*
-                "<!div class='card' style='width: 18rem;'>
-                        <div class='card-body'>
-                        <h4 class='card-title' id='nombre'>asdasdasda</h4>
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    //console.log(this.responseText);
+                    const arreglo = JSON.parse(this.responseText);
+                    console.log(arreglo);
+
+                    console.log(`Resultado
+                    ${arreglo[0].Nombre}
+                    `)
+
+                    $("#resultado").html(`<div class="card" style='width: 18rem;'>
+                        <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
-                            <li class='list-group-item'>asdasdas</li>
-                            <li class='list-group-item'>asdasd</li>
-                            <li class='list-group-item'>asdasd</li>
-                        </ul></div></div>"
-                */
-                
-            }
-        }
+                            <li class='list-group-item'>Interprete: ${arreglo[0].Interprete}</li>
+                            <li class='list-group-item'>Planeta de origen: ${arreglo[0].Planeta_Origen}</li>
+                            <li class='list-group-item'>Raza: ${arreglo[0].Raza}</li>
+                            <li class='list-group-item'>Rango: ${arreglo[0].Rango}</li>
+                            <li class='list-group-item'>Genero: ${arreglo[0].Genero}</li>
+                            <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                        </ul>
+                    </div>`);
 
-        xmlhttp.open('GET', 'controller/busquedaPersonajes.php', true);
-        xmlhttp.send();
-    }
+
+                }
+            }
+
+            xmlhttp.open('POST', 'controller/busquedaPersonajesNombre.php', true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send("Nombre=" + usrInput);
+        }
     </script>
 
 

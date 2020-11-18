@@ -27,4 +27,3 @@ while($i = $resultado->fetch_assoc()){
 $stringJson = json_encode($miJson);
 
 echo $stringJson;
-
