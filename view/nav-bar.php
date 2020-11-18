@@ -23,8 +23,8 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="BuscarPlanetas.php">Buscar planetas</a>
-                    <a class="dropdown-item" href="#">Buscar naves</a>
-                    <a class="dropdown-item" href="#">Buscar armas</a>
+                    <a class="dropdown-item" href="BuscarNaves.php">Buscar naves</a>
+                    <a class="dropdown-item" href="BuscarArmas.php">Buscar armas</a>
                 </div>
             </li>
         </ul>
