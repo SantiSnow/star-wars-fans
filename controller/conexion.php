@@ -21,4 +21,7 @@ class Conexion{
 
 }
 
-
+$host = 'localhost';
+$db = 'id15413540_pelis_info';
+$usr = 'root';
+$pass = '';

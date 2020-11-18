@@ -2,11 +2,6 @@
 
 include 'conexion.php';
 
-$host = 'localhost';
-$db = 'id15413540_pelis_info';
-$usr = 'root';
-$pass = '';
-
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
 $recibido = $_POST['Nombre'];

@@ -12,7 +12,7 @@
     
     <style>
         body{
-            background-image: url(view/imgs/tatooine.jpg);
+            background-image: url(view/imgs/bespin.jpg);
             background-repeat: no-repeat;
         }
         #principal-container{

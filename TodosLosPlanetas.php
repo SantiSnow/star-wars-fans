@@ -12,7 +12,7 @@
     
     <style>
         body{
-            background-image: url(view/imgs/jakku.jpg);
+            background-image: url(view/imgs/death-star.jpg);
             background-repeat: no-repeat;
         }
         #principal-container{
@@ -68,7 +68,7 @@ include "view/nav-bar.php";
                     const arreglo = JSON.parse(this.responseText);
 
                     for (i in arreglo){
-                        $("#resultado").append(`<div class="col-3">
+                        $("#resultado").append(`<div class="col-md-3 col-sm-12 col-lg-4 col-xl-4">
                                                     <div class="card">
                                                       <div class="card-body">
                                                         <h5 class="card-title">${arreglo[i].Nombre}</h5>

@@ -12,7 +12,7 @@
     
     <style>
         body{
-            background-image: url(view/imgs/tatooine.jpg);
+            background-image: url(view/imgs/death-star-2.jpg);
             background-repeat: no-repeat;
         }
         #principal-container{
