@@ -44,7 +44,7 @@ include "view/nav-bar.php";
     <br />
 
     <div class="container" id="principal-container">
-        <h3 class="titulo-seccion">Todos los personajes del universo Star Wars:</h3>
+        <h3 class="titulo-seccion">Todas las naves del universo Star Wars:</h3>
         <br />
         <br />
         <div class="row" id="resultado">
@@ -71,12 +71,8 @@ include "view/nav-bar.php";
                                                     <div class="card">
                                                       <div class="card-body">
                                                         <h5 class="card-title">${arreglo[i].Nombre}</h5>
-                                                        <p class="card-text">Intérprete: ${arreglo[i].Interprete}</p>
-                                                        <p class="card-text">Planeta de origen: ${arreglo[i].Planeta_Origen}</p>
-                                                        <p class="card-text">Raza: ${arreglo[i].Raza}</p>
-                                                        <p class="card-text">Rango: ${arreglo[i].Rango}</p>
-                                                        <p class="card-text">Género: ${arreglo[i].Genero}</p>
-                                                        <p class="card-text">Trilogias: ${arreglo[i].Trilogia}</p>
+                                                        <p class="card-text">Propietario: ${arreglo[i].Propietario}</p>
+                                                        <p class="card-text">Tipo: ${arreglo[i].Tipo}</p>
                                                         <p class="card-text">Estado: ${arreglo[i].Estado}</p>
                                                       </div>
                                                     </div>
@@ -86,7 +82,7 @@ include "view/nav-bar.php";
                 }
             }
 
-            xmlhttp.open('GET', 'controller/busquedaPersonajes.php', true);
+            xmlhttp.open('GET', 'controller/busquedaNaves.php', true);
             xmlhttp.send();
     </script>
 

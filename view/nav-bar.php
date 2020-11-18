@@ -12,10 +12,20 @@
                 <a class="nav-link" href="TodosLosPlanetas.php">Todos los planetas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Todas las armas</a>
+                <a class="nav-link" href="TodasLasArmas.php">Todas las armas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Todas las naves</a>
+                <a class="nav-link" href="TodasLasNaves.php">Todas las naves</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ¡Buscar!
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Buscar planetas</a>
+                    <a class="dropdown-item" href="#">Buscar naves</a>
+                    <a class="dropdown-item" href="#">Buscar armas</a>
+                </div>
             </li>
         </ul>
     </div>
