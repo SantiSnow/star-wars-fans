@@ -92,19 +92,20 @@ include "view/nav-bar.php";
 
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    //console.log(this.responseText);
+
                     const arreglo = JSON.parse(this.responseText);
                     console.log(arreglo);
 
                     console.log(`Resultado
-                    ${arreglo[0].Nombre}
+                        ${arreglo[0].Nombre}
                     `)
 
                     $("#resultado").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
-                            <li class='list-group-item'>Descripción: ${arreglo[0].Descripcion}</li>
-                            <li class='list-group-item'>Primer Aparición: ${arreglo[0].Primer_Aparicion}</li>
+                            <li class='list-group-item'>Principal usuario: ${arreglo[0].Principal_usuario}</li>
+                            <li class='list-group-item'>Tipo: ${arreglo[0].Tipo}</li>
+                            <li class='list-group-item'>Creador: ${arreglo[0].Creador}</li>
                         </ul>
                     </div>`);
 
@@ -112,7 +113,7 @@ include "view/nav-bar.php";
                 }
             }
 
-            xmlhttp.open('POST', 'controller/busquedaPlanetasNombre.php', true);
+            xmlhttp.open('POST', 'controller/busquedaArmasNombre.php', true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xmlhttp.send("Nombre=" + usrInput);
         }
@@ -126,7 +127,7 @@ include "view/nav-bar.php";
 
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    //console.log(this.responseText);
+
                     const arreglo = JSON.parse(this.responseText);
                     console.log(arreglo);
 
@@ -137,14 +138,15 @@ include "view/nav-bar.php";
                     $("#resultadoId").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
-                            <li class='list-group-item'>Descripción: ${arreglo[0].Descripcion}</li>
-                            <li class='list-group-item'>Primer Aparición: ${arreglo[0].Primer_Aparicion}</li>
+                            <li class='list-group-item'>Principal usuario: ${arreglo[0].Principal_usuario}</li>
+                            <li class='list-group-item'>Tipo: ${arreglo[0].Tipo}</li>
+                            <li class='list-group-item'>Creador: ${arreglo[0].Creador}</li>
                         </ul>
                     </div>`);
                 }
             }
 
-            xmlhttp.open('POST', 'controller/busquedaPlanetasId.php', true);
+            xmlhttp.open('POST', 'controller/busquedaArmasId.php', true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xmlhttp.send("Id=" + usrInput);
         }
