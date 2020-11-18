@@ -21,11 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodosLosPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodosLosPersonajes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodosLosPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodosLosPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Nave.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Personaje.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/view/nav-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nav-bar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +53,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\xampp\htdocs\star-wars-fans" />
       <recent name="F:\xampp\htdocs\star-wars-fans\controller" />
+      <recent name="F:\xampp\htdocs\star-wars-fans" />
       <recent name="F:\xampp\htdocs\star-wars-fans\view" />
     </key>
   </component>
@@ -82,7 +77,7 @@
       <workItem from="1605561258337" duration="855000" />
       <workItem from="1605619486710" duration="599000" />
       <workItem from="1605626616335" duration="1531000" />
-      <workItem from="1605703597865" duration="9327000" />
+      <workItem from="1605703597865" duration="9716000" />
     </task>
     <servers />
   </component>

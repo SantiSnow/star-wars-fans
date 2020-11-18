@@ -22,7 +22,7 @@
                     ¡Buscar!
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Buscar planetas</a>
+                    <a class="dropdown-item" href="BuscarPlanetas.php">Buscar planetas</a>
                     <a class="dropdown-item" href="#">Buscar naves</a>
                     <a class="dropdown-item" href="#">Buscar armas</a>
                 </div>
