@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buscarPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/buscarPersonajesNombre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personajesNombre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/nav-bar.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +59,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\xampp\htdocs\star-wars-fans\controller" />
       <recent name="F:\xampp\htdocs\star-wars-fans" />
+      <recent name="F:\xampp\htdocs\star-wars-fans\controller" />
       <recent name="F:\xampp\htdocs\star-wars-fans\view" />
     </key>
   </component>
@@ -60,30 +83,41 @@
       <workItem from="1605561258337" duration="855000" />
       <workItem from="1605619486710" duration="599000" />
       <workItem from="1605626616335" duration="1531000" />
-      <workItem from="1605703597865" duration="4892000" />
+      <workItem from="1605703597865" duration="7747000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="705" y="210" key="NewPhpClassDialog" timestamp="1605541395523">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
     <state x="705" y="210" key="NewPhpClassDialog/0.0.1804.974@0.0.1804.974" timestamp="1605541395523" />
-    <state x="736" y="410" key="NewPhpFileDialog" timestamp="1605544084015">
+    <state x="736" y="410" key="NewPhpFileDialog" timestamp="1605714279746">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
-    <state x="736" y="410" key="NewPhpFileDialog/0.0.1804.974@0.0.1804.974" timestamp="1605544084015" />
+    <state x="736" y="410" key="NewPhpFileDialog/0.0.1804.974@0.0.1804.974" timestamp="1605714279746" />
     <state x="403" y="132" key="SettingsEditor" timestamp="1605539661519">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
     <state x="403" y="132" key="SettingsEditor/0.0.1804.974@0.0.1804.974" timestamp="1605539661519" />
-    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1605549267725">
+    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1605712460077">
       <screen x="0" y="0" width="1804" height="974" />
     </state>
-    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1804.974@0.0.1804.974" timestamp="1605549267725" />
+    <state x="565" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1804.974@0.0.1804.974" timestamp="1605712460077" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -32,38 +32,16 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Star Wars Fans</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Buscar información</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Todos los personajes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Todos los planetas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Todas las armas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Todas las naves</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<?php
+include "view/nav-bar.php";
+?>
 
     <br />
     <br />
 
     <div class="container" id="principal-container">
             <div class="col-md-12">
-                <h3 class="titulo-seccion">Buscar personajes del universo Star Wars por nombre:</h3>
+                <h3 class="titulo-seccion">Buscar personajes del universo Star Wars:</h3>
                 <br />
                 <br />
                 <div class="row">
