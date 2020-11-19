@@ -4,7 +4,7 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$Id = $_POST['Id'];
+$Id = $miConexion->getConnection()->real_escape_string($_POST['Id']);
 
 $resultado = $miConexion->selectData("Select * from personajes WHERE Id=" . $Id);
 

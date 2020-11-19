@@ -5,7 +5,7 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$recibido = $_POST['Nombre'];
+$recibido = $miConexion->getConnection()->real_escape_string($_POST['Nombre']);
 
 $resultado = $miConexion->selectData("Select * from naves WHERE Nombre LIKE '%" . $recibido . "%'");
 

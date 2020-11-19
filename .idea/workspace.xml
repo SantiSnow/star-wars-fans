@@ -21,11 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuscarArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarArmas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuscarNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarNaves.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuscarPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/nav-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nav-bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/conexion.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +89,7 @@
       <workItem from="1605703597865" duration="12070000" />
       <workItem from="1605722285203" duration="411000" />
       <workItem from="1605734695755" duration="971000" />
+      <workItem from="1605828006754" duration="1007000" />
     </task>
     <servers />
   </component>
@@ -119,15 +125,5 @@
       <screen x="0" y="0" width="1804" height="974" />
     </state>
     <state x="565" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1804.974@0.0.1804.974" timestamp="1605712460077" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/controller/conexion.php</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

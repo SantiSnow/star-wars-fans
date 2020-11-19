@@ -18,6 +18,14 @@ class Conexion{
         return $this->connection->query($sql);
     }
 
+    /**
+     * @return mysqli
+     */
+    public function getConnection()
+    {
+        return $this->connection;
+    }
+
 
 }
 
