@@ -40,42 +40,39 @@ include "view/nav-bar.php";
     <br />
 
     <div class="container" id="principal-container">
-            <div class="col-md-12">
-                <h3 class="titulo-seccion">Buscar planetas del universo Star Wars:</h3>
-                <br />
-                <br />
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="Nombre">Buscar por nombre:</label>
-                            <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese nombre" class="form-control" />
-                            <br />
-                            <button type="submit" class="btn btn-danger" onclick="peticion()">Buscar</button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="Id">Buscar por número id:</label>
-                            <input type="number" id="Id" name="Id" placeholder="Ingrese ID" class="form-control" />
-                            <br />
-                            <button type="submit" class="btn btn-danger" onclick="busquedaId()">Buscar</button>
-                        </div>
-                    </div>
+        <h3 class="titulo-seccion">Buscar planetas del universo Star Wars:</h3>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="Nombre">Buscar por nombre:</label>
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese nombre" class="form-control" />
+                    <br />
+                    <button type="submit" class="btn btn-danger" onclick="peticion()">Buscar</button>
                 </div>
-                <br />
-                <br />
-                <div class="row">
-                    <div id="resultado" class="col-4 results">
-
-                    </div>
-                    <div id="resultadoId" class="col-4 results">
-
-                    </div>
-                </div>
-
-                <br />
-                <br />
             </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="Id">Buscar por número id:</label>
+                    <input type="number" id="Id" name="Id" placeholder="Ingrese ID" class="form-control" />
+                    <br />
+                    <button type="submit" class="btn btn-danger" onclick="busquedaId()">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="row">
+            <div id="resultado" class="col-sm-12 col-md-3 col-lg-4 col-xl-4 results">
+
+            </div>
+            <div id="resultadoId" class="col-sm-12 col-md-3 col-lg-4 col-xl-4 results">
+
+            </div>
+        </div>
         <br />
         <br />
     </div>

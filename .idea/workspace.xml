@@ -24,28 +24,8 @@
       <change beforePath="$PROJECT_DIR$/BuscarArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarArmas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuscarNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarNaves.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuscarPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuscarPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodasLasArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodasLasArmas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodasLasNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodasLasNaves.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodosLosPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodosLosPersonajes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodosLosPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodosLosPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNaves.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/conexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/buscarArmas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/buscarNaves.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/buscarPersonajes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/buscarPlanetas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/nav-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nav-bar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +83,7 @@
       <workItem from="1605626616335" duration="1531000" />
       <workItem from="1605703597865" duration="12070000" />
       <workItem from="1605722285203" duration="411000" />
-      <workItem from="1605734695755" duration="112000" />
+      <workItem from="1605734695755" duration="971000" />
     </task>
     <servers />
   </component>
