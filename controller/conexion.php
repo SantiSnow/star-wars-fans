@@ -26,6 +26,10 @@ class Conexion{
         return $this->connection;
     }
 
+    public function closeConnection(){
+        $this->connection->close();
+    }
+
 
 }
 

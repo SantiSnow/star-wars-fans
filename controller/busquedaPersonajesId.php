@@ -31,3 +31,4 @@ $stringJson = json_encode($miJson);
 
 echo $stringJson;
 
+$miConexion->closeConnection();

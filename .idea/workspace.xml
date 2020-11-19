@@ -21,13 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaArmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaArmasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasId.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaNaves.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNaves.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaNavesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesId.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetas.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/conexion.php" afterDir="false" />
@@ -89,7 +93,7 @@
       <workItem from="1605703597865" duration="12070000" />
       <workItem from="1605722285203" duration="411000" />
       <workItem from="1605734695755" duration="971000" />
-      <workItem from="1605828006754" duration="1007000" />
+      <workItem from="1605828006754" duration="1559000" />
     </task>
     <servers />
   </component>
