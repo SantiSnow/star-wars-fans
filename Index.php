@@ -107,10 +107,10 @@ include "view/nav-bar.php";
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
 
-                    const arreglo = JSON.parse(this.responseText);
+                    if(this.responseText != '[]'){
+                        const arreglo = JSON.parse(this.responseText);
 
-
-                    $("#resultado").html(`<div class="card" style='width: 18rem;'>
+                        $("#resultado").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
                             <li class='list-group-item'>Intérprete: ${arreglo[0].Interprete}</li>
@@ -122,6 +122,12 @@ include "view/nav-bar.php";
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
                         </ul>
                     </div>`);
+                    }
+                    else {
+                        $("#resultado").html(`<div class=\"card\" style="width: 18rem;"><h6 class='card-title' id='nombre'>No se encontro un personaje con ese nombre</h6></div>`);
+                    }
+
+
 
 
                 }
