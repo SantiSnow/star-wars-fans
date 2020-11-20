@@ -27,6 +27,9 @@
                     <a class="dropdown-item" href="BuscarArmas.php">Buscar armas</a>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre-nosotros.php">Sobre nosotros</a>
+            </li>
         </ul>
     </div>
 </nav>
