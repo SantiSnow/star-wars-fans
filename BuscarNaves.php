@@ -94,6 +94,7 @@ include "view/nav-bar.php";
                     $("#resultado").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
+                            <li class='list-group-item'>ID: ${arreglo[0].Id}</li>
                             <li class='list-group-item'>Propietario: ${arreglo[0].Propietario}</li>
                             <li class='list-group-item'>Tipo: ${arreglo[0].Tipo}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
@@ -125,6 +126,7 @@ include "view/nav-bar.php";
                     $("#resultadoId").html(`<div class="card" style='width: 18rem;'>
                         <h4 class='card-title' id='nombre'>${arreglo[0].Nombre}</h4>
                         <ul class='list-group list-group-flush'>
+                            <li class='list-group-item'>ID: ${arreglo[0].Id}</li>
                             <li class='list-group-item'>Propietario: ${arreglo[0].Propietario}</li>
                             <li class='list-group-item'>Tipo: ${arreglo[0].Tipo}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>

@@ -70,6 +70,7 @@ include "view/nav-bar.php";
                                                     <div class="card">
                                                       <div class="card-body">
                                                         <h5 class="card-title">${arreglo[i].Nombre}</h5>
+                                                        <p class="card-text">ID: ${arreglo[i].Id}</p>
                                                         <p class="card-text">Propietario: ${arreglo[i].Propietario}</p>
                                                         <p class="card-text">Tipo: ${arreglo[i].Tipo}</p>
                                                         <p class="card-text">Estado: ${arreglo[i].Estado}</p>

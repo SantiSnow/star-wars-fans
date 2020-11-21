@@ -120,6 +120,7 @@ include "view/nav-bar.php";
                             <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
                             <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                            <li class='list-group-item'>ID: ${arreglo[0].Id}</li>
                         </ul>
                     </div>`);
                     }
@@ -160,6 +161,7 @@ include "view/nav-bar.php";
                             <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
                             <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                            <li class='list-group-item'>ID: ${arreglo[0].Id}</li>
                         </ul>
                     </div>`);
                 }
@@ -191,6 +193,7 @@ include "view/nav-bar.php";
                             <li class='list-group-item'>Género: ${arreglo[0].Genero}</li>
                             <li class='list-group-item'>Trilogias: ${arreglo[0].Trilogia}</li>
                             <li class='list-group-item'>Estado: ${arreglo[0].Estado}</li>
+                            <li class='list-group-item'>ID: ${arreglo[0].Id}</li>
                         </ul>
                     </div>`);
                 }
