@@ -6,7 +6,13 @@ $miConexion = new Conexion($host, $db, $usr, $pass);
 
 $Id = $miConexion->getConnection()->real_escape_string($_POST['Id']);
 
-$resultado = $miConexion->selectData("Select * from personajes WHERE Id=" . $Id);
+$stm = $miConexion->getConnection()->prepare("Select * from personajes WHERE Id=?");
+
+$stm->bind_param("i", $Id);
+
+$stm->execute();
+
+$resultado = $stm->get_result();
 
 $miJson = array();
 
@@ -31,4 +37,5 @@ $stringJson = json_encode($miJson);
 
 echo $stringJson;
 
+$stm->close();
 $miConexion->closeConnection();
