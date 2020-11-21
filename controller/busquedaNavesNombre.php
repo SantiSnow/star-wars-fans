@@ -5,9 +5,15 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$recibido = $miConexion->getConnection()->real_escape_string($_POST['Nombre']);
+$recibido = "%" . $miConexion->getConnection()->real_escape_string($_POST['Nombre']) . "%";
 
-$resultado = $miConexion->selectData("Select * from naves WHERE Nombre LIKE '%" . $recibido . "%'");
+$stm = $miConexion->getConnection()->prepare("SELECT * FROM naves WHERE Nombre LIKE ?");
+
+$stm->bind_param("s", $recibido);
+
+$stm->execute();
+
+$resultado = $stm->get_result();
 
 $miJson = array();
 
