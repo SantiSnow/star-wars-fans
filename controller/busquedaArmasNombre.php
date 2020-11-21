@@ -31,5 +31,6 @@ $stringJson = json_encode($miJson);
 
 echo $stringJson;
 
+$stm->close();
 $miConexion->closeConnection();
 
