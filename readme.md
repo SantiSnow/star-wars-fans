@@ -25,6 +25,14 @@
                 lo antes posible, para decirte como podes colaborar sumando información.</p>
                 <br />
                 <br />
+                <ul>
+                    <li>PHP sin frameworks (El servidor de producción no permite Laravel ni Symphony)</li>
+                    <li>HTML + CSS</li>
+                    <li>JavaScript - Jquery</li>
+                    <li>Bootstrap V4</li>
+                    <li>MySQL 5</li>
+                </ul>
+            </div>
             <br />
             <br />
             <div class="row">
@@ -32,3 +40,5 @@
                 <p>No soy dueño de los derechos de autor de Star Wars, ni de sus personajes, ni de sus datos de ningún tipo. Este sitio es simplemente informativo y sin fin de lucro,
                     para que sus fanáticos e interesados puedan busacr información interesante sobre este gran universo.</p>
             </div>
+        </div>
+ </div>
