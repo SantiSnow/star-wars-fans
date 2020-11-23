@@ -56,6 +56,10 @@ include "view/nav-bar.php";
 
     <br />
     <br />
+    <!-- Modales -->
+    <div id="modales">
+
+    </div>
 
     <script>
             const xmlhttp = new XMLHttpRequest();
@@ -70,17 +74,36 @@ include "view/nav-bar.php";
                                                     <div class="card">
                                                       <div class="card-body">
                                                         <h5 class="card-title">${arreglo[i].Nombre}</h5>
-                                                        <p class="card-text">ID: ${arreglo[i].Id}</p>
-                                                        <p class="card-text">Intérprete: ${arreglo[i].Interprete}</p>
-                                                        <p class="card-text">Planeta de origen: ${arreglo[i].Planeta_Origen}</p>
-                                                        <p class="card-text">Raza: ${arreglo[i].Raza}</p>
-                                                        <p class="card-text">Rango: ${arreglo[i].Rango}</p>
-                                                        <p class="card-text">Género: ${arreglo[i].Genero}</p>
-                                                        <p class="card-text">Trilogias: ${arreglo[i].Trilogia}</p>
-                                                        <p class="card-text">Estado: ${arreglo[i].Estado}</p>
+                                                        <br />
+                                                        <button type="button" data-toggle="modal" data-target="#modal${i}" class="btn btn-danger">Ver datos</button>
                                                       </div>
                                                     </div>
                                                   </div>`);
+
+                        $("#modales").append(`
+                        <div class="modal fade" id="modal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">${arreglo[i].Nombre}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><strong>ID del planeta:</strong> ${arreglo[i].Id}</p>
+                                        <p>Intérprete: ${arreglo[i].Interprete}</p>
+                                        <p>Planeta de origen: ${arreglo[i].Planeta_Origen}</p>
+                                        <p>Raza: ${arreglo[i].Raza}</p>
+                                        <p>Rango: ${arreglo[i].Rango}</p>
+                                        <p>Género: ${arreglo[i].Genero}</p>
+                                        <p>Trilogias: ${arreglo[i].Trilogia}</p>
+                                        <p>Estado: ${arreglo[i].Estado}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `);
                     }
 
                 }
