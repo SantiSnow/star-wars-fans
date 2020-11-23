@@ -61,6 +61,7 @@ include "view/nav-bar.php";
     
     </div>
 
+
     <script>
             const usrInput = $("#Nombre").val();
 
@@ -81,6 +82,7 @@ include "view/nav-bar.php";
                                                       </div>
                                                     </div>
                                                   </div>`);
+
 
                         $("#modales").append(`
                         <div class="modal fade" id="modal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -103,8 +105,17 @@ include "view/nav-bar.php";
                         </div>
                         `);
                     }
+
                 }
             }
+
+            /*
+            <p class="card-text">ID: ${arreglo[i].Id}</p>
+            <p class="card-text">Descripción: ${arreglo[i].Descripcion}</p>
+            <br />
+            <p class="card-text">Primer aparición: ${arreglo[i].Primer_Aparicion}</p>
+
+            */
 
             xmlhttp.open('GET', 'controller/busquedaPlanetas.php', true);
             xmlhttp.send();
