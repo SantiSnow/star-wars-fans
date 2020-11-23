@@ -56,6 +56,10 @@ include "view/nav-bar.php";
 
     <br />
     <br />
+    <!-- Modales -->
+    <div id="modales">
+
+    </div>
 
     <script>
             const xmlhttp = new XMLHttpRequest();
@@ -70,13 +74,32 @@ include "view/nav-bar.php";
                                                     <div class="card">
                                                       <div class="card-body">
                                                         <h5 class="card-title">${arreglo[i].Nombre}</h5>
-                                                        <p class="card-text">ID: ${arreglo[i].Id}</p>
-                                                        <p class="card-text">Principal usuario: ${arreglo[i].Principal_usuario}</p>
-                                                        <p class="card-text">Tipo de arma: ${arreglo[i].Tipo}</p>
-                                                        <p class="card-text">Creador: ${arreglo[i].Creador}</p>
+                                                        <br />
+                                                        <button type="button" data-toggle="modal" data-target="#modal${i}" class="btn btn-danger">Ver datos</button>
                                                       </div>
                                                     </div>
                                                   </div>`);
+
+                        $("#modales").append(`
+                        <div class="modal fade" id="modal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">${arreglo[i].Nombre}</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>ID: ${arreglo[i].Id}</p>
+                                        <p>Principal usuario: ${arreglo[i].Principal_usuario}</p>
+                                        <p>Tipo de arma: ${arreglo[i].Tipo}</p>
+                                        <p>Creador: ${arreglo[i].Creador}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `);
                     }
 
                 }
