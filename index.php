@@ -22,8 +22,8 @@
             margin: 5px;
         }
         .results{
-            margin-left: 15px;
-            margin-right: 15px;
+            margin-bottom: 5px;
+            margin-top: 5px;
         }
         .card{
             margin-bottom: 5px;
