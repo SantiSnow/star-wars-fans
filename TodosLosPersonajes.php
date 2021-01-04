@@ -82,6 +82,7 @@ include "view/nav-bar.php";
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">${arreglo[i].Nombre}</h5>
+
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -95,6 +96,7 @@ include "view/nav-bar.php";
                                         <p>Género: ${arreglo[i].Genero}</p>
                                         <p>Trilogias: ${arreglo[i].Trilogia}</p>
                                         <p>Estado: ${arreglo[i].Estado}</p>
+                                        <img src="res/imgs/${arreglo[i].Foto}" alt="Imagen del personaje" style="width: 50%" class="rounded mx-auto d-block">
                                     </div>
                                 </div>
                             </div>
