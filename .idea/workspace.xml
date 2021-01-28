@@ -21,7 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e8cbd40d-296c-466e-86e4-0cfcbe7c5334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodosLosPersonajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodosLosPersonajes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaArmasNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaNavesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesInterprete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPersonajesNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasId.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/busquedaPlanetasNombre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/conexion.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +101,10 @@
       <workItem from="1606143292425" duration="1512000" />
       <workItem from="1608141743999" duration="3617000" />
       <workItem from="1608573559372" duration="237000" />
-      <workItem from="1609802407239" duration="293000" />
+      <workItem from="1609802407239" duration="994000" />
+      <workItem from="1610918744162" duration="1019000" />
+      <workItem from="1611619513908" duration="687000" />
+      <workItem from="1611862793067" duration="2341000" />
     </task>
     <servers />
   </component>

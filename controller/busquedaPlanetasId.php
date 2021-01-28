@@ -4,7 +4,9 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$Id = $miConexion->getConnection()->real_escape_string($_POST['Id']);
+$ingreso = trim($_POST['Id']);
+
+$Id = $miConexion->getConnection()->real_escape_string($ingreso);
 
 $stm = $miConexion->getConnection()->prepare("Select * from planetas WHERE Id=?");
 

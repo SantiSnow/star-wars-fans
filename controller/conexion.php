@@ -30,7 +30,6 @@ class Conexion{
         $this->connection->close();
     }
 
-
 }
 
 $host = 'localhost';

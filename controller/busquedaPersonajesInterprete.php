@@ -4,7 +4,9 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$Interprete = "%" . $miConexion->getConnection()->real_escape_string($_POST['Interprete']) . "%";
+$ingreso = trim($_POST['Interprete']);
+
+$Interprete = "%" . $miConexion->getConnection()->real_escape_string($ingreso) . "%";
 
 $stm = $miConexion->getConnection()->prepare("Select * from personajes WHERE Interprete LIKE ?");
 

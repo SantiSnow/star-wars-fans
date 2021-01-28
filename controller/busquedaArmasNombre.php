@@ -4,7 +4,9 @@ include 'conexion.php';
 
 $miConexion = new Conexion($host, $db, $usr, $pass);
 
-$recibido = "%" . $miConexion->getConnection()->real_escape_string($_POST['Nombre']) . "%";
+$ingreso = trim($_POST['Nombre']);
+
+$recibido = "%" . $miConexion->getConnection()->real_escape_string($ingreso) . "%";
 
 $stm = $miConexion->getConnection()->prepare("SELECT * FROM armas WHERE Nombre LIKE ?");
 
